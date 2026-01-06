@@ -33,7 +33,7 @@ const (
 
 // deckmarkup defines the structure of a presentation deck
 // The size of the canvas, and series of slides
-type deck struct {
+type Deck struct {
 	Title       string  `xml:"title"`
 	Creator     string  `xml:"creator"`
 	Subject     string  `xml:"subject"`
