@@ -1,5 +1,5 @@
 // Package deckgen (generate) performs slide deck generation
-package generate
+package deckgen
 
 import (
 	"fmt"
